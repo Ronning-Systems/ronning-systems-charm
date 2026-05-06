@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Cloud, Boxes, Code2, Mail, MapPin, Calendar, Download } from "lucide-react";
-import { Logo, downloadLogoSvg } from "@/components/Logo";
+import { Cloud, Boxes, Code2, Mail, MapPin, Calendar } from "lucide-react";
+import { Logo } from "@/components/Logo";
 import {
   Dialog,
   DialogContent,
@@ -84,13 +84,6 @@ const Index = () => {
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <Button asChild size="lg">
                 <a href="#contact">Get in Touch</a>
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                onClick={() => downloadLogoSvg()}
-              >
-                <Download /> Download Logo (SVG)
               </Button>
             </div>
           </div>
