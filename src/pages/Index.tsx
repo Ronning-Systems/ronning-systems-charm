@@ -1,7 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Cloud, Boxes, Code2, Mail, MapPin, Calendar } from "lucide-react";
-import { Logo } from "@/components/Logo";
+import { Cloud, Boxes, Code2, Mail, MapPin, Calendar, Download } from "lucide-react";
+import { Logo, downloadLogoSvg } from "@/components/Logo";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 const services = [
   {
@@ -74,9 +81,18 @@ const Index = () => {
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
               Building reliable systems that scale with your business.
             </p>
-            <Button asChild size="lg" className="mt-8">
-              <a href="#contact">Get in Touch</a>
-            </Button>
+            <div className="mt-8 flex flex-wrap justify-center gap-3">
+              <Button asChild size="lg">
+                <a href="#contact">Get in Touch</a>
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                onClick={() => downloadLogoSvg()}
+              >
+                <Download /> Download Logo (SVG)
+              </Button>
+            </div>
           </div>
         </section>
 
@@ -167,9 +183,21 @@ const Index = () => {
                       <p className="text-sm text-muted-foreground">Prefer to talk? Book a time that works for you.</p>
                     </div>
                   </div>
-                  <Button asChild className="w-full">
-                    <a href="https://calendly.com/patrick-ronning/hire-patrick" target="_blank" rel="noopener noreferrer">Book on Calendly</a>
-                  </Button>
+                  <Dialog>
+                    <DialogTrigger asChild>
+                      <Button className="w-full">Book on Calendly</Button>
+                    </DialogTrigger>
+                    <DialogContent className="max-w-3xl p-0 sm:max-w-3xl">
+                      <DialogHeader className="p-4 pb-0">
+                        <DialogTitle>Schedule a Call</DialogTitle>
+                      </DialogHeader>
+                      <iframe
+                        title="Calendly scheduling"
+                        src="https://calendly.com/patrick-ronning/hire-patrick?embed_domain=ronning.systems&embed_type=Inline"
+                        className="h-[70vh] w-full rounded-b-lg border-0"
+                      />
+                    </DialogContent>
+                  </Dialog>
                 </CardContent>
               </Card>
             </div>
