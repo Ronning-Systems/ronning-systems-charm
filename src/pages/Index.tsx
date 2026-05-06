@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Cloud, Boxes, Code2, Mail, MapPin, Calendar } from "lucide-react";
+import { Logo } from "@/components/Logo";
 
 const services = [
   {
@@ -51,7 +52,9 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground">
       <header className="sticky top-0 z-40 w-full border-b border-border bg-background/80 backdrop-blur">
         <nav className="container flex h-16 items-center justify-between">
-          <a href="#" className="font-semibold tracking-tight">Ronning Systems, LLC</a>
+          <a href="#" aria-label="Ronning Systems, LLC home">
+            <Logo />
+          </a>
           <div className="hidden gap-8 text-sm text-muted-foreground md:flex">
             <a href="#services" className="hover:text-foreground">Services</a>
             <a href="#projects" className="hover:text-foreground">Projects</a>
@@ -64,7 +67,10 @@ const Index = () => {
       <main>
         <section className="bg-secondary">
           <div className="container py-24 text-center md:py-32">
-            <h1 className="text-4xl font-bold tracking-tight md:text-6xl">Ronning Systems, LLC</h1>
+            <div className="flex justify-center">
+              <Logo showWordmark={false} className="[&>svg]:h-16 [&>svg]:w-16" />
+            </div>
+            <h1 className="mt-6 text-4xl font-bold tracking-tight md:text-6xl">Ronning Systems, LLC</h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
               Building reliable systems that scale with your business.
             </p>
