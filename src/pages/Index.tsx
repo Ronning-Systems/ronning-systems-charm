@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Cloud, Boxes, Code2, Mail, MapPin, Calendar } from "lucide-react";
+import { Cloud, Boxes, Code2, Mail, MapPin, Calendar, Linkedin } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import {
   Dialog,
@@ -141,6 +141,17 @@ const Index = () => {
             <p className="mt-4 text-center text-muted-foreground">
               With 15+ years of experience in systems engineering, software development, and cloud architecture, Patrick brings a practical, business-focused approach to technology. He has worked with startups and established enterprises, always focusing on delivering real value.&nbsp;
             </p>
+            <div className="mt-6 flex justify-center">
+              <a
+                href="https://www.linkedin.com/in/patrickronning"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-accent hover:underline"
+              >
+                <Linkedin className="h-5 w-5" />
+                Connect on LinkedIn
+              </a>
+            </div>
           </div>
         </section>
 
