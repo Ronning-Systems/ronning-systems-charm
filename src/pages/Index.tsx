@@ -2,6 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Cloud, Boxes, Code2, Mail, MapPin, Calendar, Linkedin } from "lucide-react";
 import { Logo } from "@/components/Logo";
+import garminLogo from "@/assets/garmin.png.asset.json";
+import virginOrbitLogo from "@/assets/virgin-orbit.png.asset.json";
+import brightInsightLogo from "@/assets/brightinsight.png.asset.json";
+import oshLogo from "@/assets/oregon-state-hospital.png.asset.json";
 import {
   Dialog,
   DialogContent,
@@ -31,18 +35,26 @@ const services = [
 const projects = [
   {
     title: "Garmin G500 TXi Flight Display System",
+    logo: garminLogo.url,
+    logoAlt: "Garmin logo",
     desc: "Managed all system requirements, verification, and regulatory compliance for the G500 TXi flight display system. Set the standard for system requirements management at Garmin, establishing processes that became the benchmark for subsequent aviation product development.",
   },
   {
     title: "First Flight Launch Verification",
+    logo: virginOrbitLogo.url,
+    logoAlt: "Virgin Orbit logo",
     desc: "Led cross-functional launch verification efforts at Virgin Orbit, coordinating with all departments to ensure testing supported a high probability of successful launch. The mission achieved orbit insertion on first flight.",
   },
   {
     title: "SaMD Applications at BrightInsight",
+    logo: brightInsightLogo.url,
+    logoAlt: "BrightInsight logo",
     desc: "Led launch of multiple Software as a Medical Device (SaMD) applications including two blockbuster immunotherapy companion applications (Dupixent and Hizentra), a Type I Diabetes application, and a Type 1 Diabetes dosing guidance SDK.",
   },
   {
     title: "Oregon State Hospital Information Ecosystem",
+    logo: oshLogo.url,
+    logoAlt: "Oregon State Hospital logo",
     desc: "Mapped the entire ecosystem of information across the Oregon State Hospital system. Identified critical gaps and led initiatives that resulted in closure of 3 enterprise risks, significantly improving patient data integrity and operational workflows.",
   },
 ];
@@ -110,7 +122,15 @@ const Index = () => {
             <div className="mt-12 grid gap-6 md:grid-cols-2">
               {projects.map((p) => (
                 <Card key={p.title} className="border-border bg-card">
-                  <CardHeader>
+                  <CardHeader className="flex flex-row items-center gap-4 space-y-0">
+                    <div className="flex h-16 w-24 shrink-0 items-center justify-center rounded-md bg-white p-2">
+                      <img
+                        src={p.logo}
+                        alt={p.logoAlt}
+                        className="max-h-full max-w-full object-contain"
+                        loading="lazy"
+                      />
+                    </div>
                     <CardTitle>{p.title}</CardTitle>
                   </CardHeader>
                   <CardContent className="text-muted-foreground">{p.desc}</CardContent>
