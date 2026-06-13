@@ -39,7 +39,7 @@ const projects = [
   },
   {
     title: "SaMD Applications at BrightInsight",
-    desc: "Led launch of multiple Software as a Medical Device (SaMD) applications including a Type I Diabetes application, a Type 1 Diabetes dosing guidance SDK, and the MyWay companion application for Dupixent.",
+    desc: "Led launch of multiple Software as a Medical Device (SaMD) applications including two blockbuster immunotherapy companion applications (Dupixent and Hizentra), a Type I Diabetes application, and a Type 1 Diabetes dosing guidance SDK.",
   },
   {
     title: "Oregon State Hospital Information Ecosystem",
@@ -139,7 +139,7 @@ const Index = () => {
           <div className="mx-auto mt-16 max-w-3xl">
             <h3 className="text-center text-xl font-semibold">Background</h3>
             <p className="mt-4 text-center text-muted-foreground">
-              With years of experience in software development, cloud architecture, and systems engineering, we bring a practical, business-focused approach to technology. We've worked with startups and established enterprises, always focusing on delivering real value.
+              With 15+ years of experience in systems engineering, software development, and cloud architecture, Patrick brings a practical, business-focused approach to technology. He has worked with startups and established enterprises, always focusing on delivering real value.&nbsp;
             </p>
           </div>
         </section>
