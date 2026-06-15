@@ -1,0 +1,13 @@
+# Ronning Systems, LLC
+
+> Independent consultancy providing FDA audit readiness, systems engineering, and technical facilitation for medical device and aviation teams. Based in the Portland, OR metro area and founded by Patrick Ronning.
+
+Ronning Systems helps regulated-product teams ship reliable systems: design controls, risk management, verification and validation, and audit-ready quality processes. Past work spans medical devices (BrightInsight, Oregon State Hospital), aerospace (Virgin Orbit), and wearables (Garmin).
+
+## Pages
+
+- [Home](/): Overview of services, projects, and how to get in touch.
+
+## Contact
+
+- [Patrick Ronning on LinkedIn](https://www.linkedin.com/in/patrickronning): Primary professional contact.

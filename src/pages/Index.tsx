@@ -89,7 +89,9 @@ const Index = () => {
             <div className="flex justify-center">
               <Logo showWordmark={false} className="[&>svg]:h-16 [&>svg]:w-16" />
             </div>
-            <h1 className="mt-6 text-4xl font-bold tracking-tight md:text-6xl">Ronning Systems, LLC</h1>
+            <h1 className="mt-6 text-4xl font-bold tracking-tight md:text-6xl">
+              Ronning Systems — Systems Engineering &amp; Medical Device Consultancy
+            </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
               Building reliable systems that scale with your business.
             </p>
