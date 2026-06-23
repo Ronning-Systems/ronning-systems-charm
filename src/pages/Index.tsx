@@ -36,25 +36,25 @@ const projects = [
   {
     title: "Garmin G500 TXi Flight Display System",
     logo: garminLogo,
-    logoAlt: "Garmin logo",
+    logoAlt: "Garmin flight display systems",
     desc: "Managed all system requirements, verification, and regulatory compliance for the G500 TXi flight display system. Set the standard for system requirements management at Garmin, establishing processes that became the benchmark for subsequent aviation product development.",
   },
   {
     title: "First Flight Launch Verification",
     logo: virginOrbitLogo,
-    logoAlt: "Virgin Orbit logo",
+    logoAlt: "Virgin Orbit launch vehicle avionics",
     desc: "Led cross-functional launch verification efforts at Virgin Orbit, coordinating with all departments to ensure testing supported a high probability of successful launch. The mission achieved orbit insertion on first flight.",
   },
   {
     title: "SaMD Applications at BrightInsight",
     logo: brightInsightLogo,
-    logoAlt: "BrightInsight logo",
+    logoAlt: "BrightInsight medical device software",
     desc: "Led launch of multiple Software as a Medical Device (SaMD) applications including two blockbuster immunotherapy companion applications (Dupixent and Hizentra), a Type I Diabetes application, and a Type 1 Diabetes dosing guidance SDK.",
   },
   {
     title: "Oregon State Hospital Information Ecosystem",
     logo: oshLogo,
-    logoAlt: "Oregon State Hospital logo",
+    logoAlt: "Oregon State Hospital clinical systems",
     desc: "Mapped the entire ecosystem of information across the Oregon State Hospital system. Identified critical gaps and led initiatives that resulted in closure of 3 enterprise risks, significantly improving patient data integrity and operational workflows.",
   },
 ];
