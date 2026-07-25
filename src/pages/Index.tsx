@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Cloud, Boxes, Code2, Mail, MapPin, Calendar, Linkedin } from "lucide-react";
+import { Briefcase, GitBranch, Compass, Mail, MapPin, Calendar, Linkedin } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import garminLogo from "@/assets/garmin.png";
 import virginOrbitLogo from "@/assets/virgin-orbit.png";
@@ -16,19 +16,19 @@ import {
 
 const services = [
   {
-    icon: Cloud,
-    title: "Audit Readiness",
-    desc: "Prepare for FDA inspections with confidence. I help medical device companies achieve audit-ready status through Design History File (DHF) development, Device Master Record (DMR) compliance, and pre-audit gap assessments. Specializing in FDA 21 CFR Part 820 requirements for product development.",
+    icon: Briefcase,
+    title: "Fractional CTO",
+    desc: "Senior technical leadership without the full-time hire. I step in as your fractional CTO to set technology strategy, hire and mentor engineering teams, make build-vs-buy calls, and own the technical roadmap end-to-end — so the founders and board can focus on the business.",
   },
   {
-    icon: Boxes,
-    title: "Systems Engineering",
-    desc: "Build a foundation for compliant product development. I develop and operate Quality Management Systems, create product requirements, and design verification plans with complete traceability. Experience with DO-178C and medical device validation protocols.",
+    icon: GitBranch,
+    title: "Systems Engineering & Project Management",
+    desc: "From messy requirements to shipped product. I bring disciplined systems engineering — requirements, architecture, verification, traceability — together with hands-on program leadership. The result is on-time delivery in regulated environments (medical devices, aerospace, health IT) without the overhead of a large PMO.",
   },
   {
-    icon: Code2,
-    title: "Technical Facilitation",
-    desc: 'Break down silos and align your teams. I work side-by-side with your organization to identify pain points, facilitate cross-functional communication, and establish better ways of working together. Turn "talking at each other" into "speaking with each other."',
+    icon: Compass,
+    title: "Board & Technical Advisory",
+    desc: "Independent technical perspective for boards and leadership teams. I help directors and executives evaluate technology bets, challenge assumptions, and govern AI, software, and product risk. With prior board experience and currently seeking a board or technical advisory role, I'm available for board seats, advisory engagements, and one-off strategic reviews.",
   },
 ];
 
@@ -90,10 +90,10 @@ const Index = () => {
               <Logo showWordmark={false} className="[&>svg]:h-16 [&>svg]:w-16" />
             </div>
             <h1 className="mt-6 text-4xl font-bold tracking-tight md:text-6xl">
-              Ronning Systems — Systems Engineering &amp; Medical Device Consultancy
+              Fractional CTO, Systems Engineering &amp; Technical Advisory
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-              Building reliable systems that scale with your business.
+              Senior technology leadership for companies that need to ship — without the overhead of a full-time executive team.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <Button asChild size="lg">
@@ -161,7 +161,7 @@ const Index = () => {
           <div className="mx-auto mt-16 max-w-3xl">
             <h3 className="text-center text-xl font-semibold">Background</h3>
             <p className="mt-4 text-center text-muted-foreground">
-              With 15+ years of experience in systems engineering, software development, and cloud architecture, Patrick brings a practical, business-focused approach to technology. He has worked with startups and established enterprises, always focusing on delivering real value.&nbsp;
+              With 15+ years of experience in systems engineering, software development, and cloud architecture, Patrick brings a practical, business-focused approach to technology. He has worked with startups and established enterprises, always focusing on delivering real value. He currently serves as a fractional CTO and leads systems engineering and program delivery for regulated products, with prior board experience and an interest in joining a board in a technical advisory capacity.&nbsp;
             </p>
             <div className="mt-6 flex justify-center">
               <a
