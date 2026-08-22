@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# Build and deploy this Vite app to Google Cloud Run.
+# LEGACY deploy path — Google Cloud Run. The canonical deploy target is
+# the self-hosted Traefik on patrick-mini-1 via my-stack/deploy-patrick-mini.sh.
+# This script is retained for rollback / cloud fallback only.
 #
 # Prereqs (one-time):
 #   gcloud auth login
@@ -10,6 +12,10 @@
 # Usage:
 #   ./deploy.sh                          # uses defaults below
 #   PROJECT_ID=my-proj REGION=us-central1 SERVICE=ronning-systems ./deploy.sh
+#
+# PostHog is baked in at build time via VITE_POSTHOG_KEY / VITE_POSTHOG_HOST
+# (from Vault secret/RS/posthog_project_*). Set them inline to enable analytics:
+#   VITE_POSTHOG_KEY=phc_xxx ./deploy.sh
 
 set -euo pipefail
 
@@ -30,7 +36,9 @@ echo "→ Service: ${SERVICE}"
 echo "→ Image:   ${IMAGE}"
 
 echo "→ Building container with Cloud Build…"
-gcloud builds submit --tag "${IMAGE}" --project "${PROJECT_ID}"
+gcloud builds submit --tag "${IMAGE}" --project "${PROJECT_ID}" \
+  --build-arg VITE_POSTHOG_KEY="${VITE_POSTHOG_KEY:-}" \
+  --build-arg VITE_POSTHOG_HOST="${VITE_POSTHOG_HOST:-https://us.i.posthog.com}"
 
 echo "→ Deploying to Cloud Run…"
 gcloud run deploy "${SERVICE}" \

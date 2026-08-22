@@ -2,6 +2,11 @@
 FROM node:20-alpine AS build
 WORKDIR /app
 
+# PostHog analytics — baked in at build time (Vite inlines import.meta.env.VITE_*).
+# The deploy script passes these from Vault (secret/RS/posthog_project_*).
+ARG VITE_POSTHOG_KEY=""
+ARG VITE_POSTHOG_HOST="https://us.i.posthog.com"
+
 # Install deps (use bun lockfile if present, otherwise npm)
 COPY package.json package-lock.json* bun.lockb* ./
 RUN if [ -f bun.lockb ]; then \
@@ -13,12 +18,13 @@ RUN if [ -f bun.lockb ]; then \
     fi
 
 COPY . .
-RUN npm run build
+RUN VITE_POSTHOG_KEY="$VITE_POSTHOG_KEY" VITE_POSTHOG_HOST="$VITE_POSTHOG_HOST" npm run build
 
 # ---- Runtime stage ----
 FROM nginx:1.27-alpine AS runtime
 
-# SPA-friendly nginx config that respects Cloud Run's $PORT
+# SPA-friendly nginx config that respects the container's $PORT
+# (canonical deploy: Traefik on patrick-mini-1; legacy: Cloud Run).
 RUN rm /etc/nginx/conf.d/default.conf
 COPY nginx.conf /etc/nginx/templates/default.conf.template
 

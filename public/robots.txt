@@ -12,5 +12,8 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /admin
+Disallow: /staging
+Disallow: /test
 
 Sitemap: https://ronning.systems/sitemap.xml

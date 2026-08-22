@@ -1,12 +1,19 @@
 # Ronning Systems, LLC
 
-> Independent consultancy providing FDA audit readiness, systems engineering, and technical facilitation for medical device and aviation teams. Based in the Portland, OR metro area and founded by Patrick Ronning.
+> Technology consultancy and the company behind Joblign — a job application tracking system with AI-powered resume generation and ATS analysis. Based in the Portland, OR metro area and founded by Patrick Ronning.
 
-Ronning Systems helps regulated-product teams ship reliable systems: design controls, risk management, verification and validation, and audit-ready quality processes. Past work spans medical devices (BrightInsight, Oregon State Hospital), aerospace (Virgin Orbit), and wearables (Garmin).
+Ronning Systems builds Joblign ("Get aligned for success") and provides fractional CTO, project execution, and board & technical advisory services. Past work spans medical devices (BrightInsight, Oregon State Hospital), aerospace (Virgin Orbit), and wearables (Garmin).
 
 ## Pages
 
-- [Home](/): Overview of services, projects, and how to get in touch.
+- [Home](/): Joblign product overview, consulting summary, and how to get in touch.
+- [Product](/product): Joblign — job tracking, resume management, cover letter generation, and AI agents.
+- [Appliances](/appliances): The public appliance catalog — self-contained services that make up the Joblign platform.
+- [Consulting](/consulting): Fractional CTO, project execution, and board & technical advisory services.
+- [Pricing](/pricing): Consulting tiers and Joblign plan tiers.
+- [About](/about): About Ronning Systems, LLC and Patrick Ronning.
+- [Blog](/blog): Resources and writing on job search, ATS optimization, and building with AI.
+- [Contact](/contact): How to get in touch.
 
 ## Contact
 

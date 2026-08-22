@@ -1,6 +1,8 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { Seo } from "@/components/Seo";
 
 const NotFound = () => {
   const location = useLocation();
@@ -10,21 +12,19 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-muted">
-      <Helmet>
-        <title>Page Not Found — Ronning Systems</title>
-        <meta name="description" content="The page you're looking for doesn't exist. Return to Ronning Systems for systems engineering and medical device consulting." />
-        <meta name="robots" content="noindex" />
-        <link rel="canonical" href={`https://ronning.systems${location.pathname}`} />
-        <meta property="og:title" content="Page Not Found — Ronning Systems" />
-        <meta property="og:url" content={`https://ronning.systems${location.pathname}`} />
-      </Helmet>
+    <div className="flex min-h-[60vh] items-center justify-center">
+      <Seo
+        title="Page Not Found — Ronning Systems"
+        description="The page you're looking for doesn't exist. Return to Ronning Systems for Joblign and technology consulting."
+        path={location.pathname}
+        noindex
+      />
       <div className="text-center">
         <h1 className="mb-4 text-4xl font-bold">404</h1>
         <p className="mb-4 text-xl text-muted-foreground">Oops! Page not found</p>
-        <a href="/" className="text-primary underline hover:text-primary/90">
-          Return to Home
-        </a>
+        <Button asChild>
+          <Link to="/">Return to Home</Link>
+        </Button>
       </div>
     </div>
   );
