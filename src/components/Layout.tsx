@@ -100,8 +100,8 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
             <div>
               <Logo />
               <p className="mt-3 text-sm text-muted-foreground">
-                Joblign — get aligned for success. Technology consultancy and product engineering from
-                Ronning Systems, LLC.
+                Technology consultancy and product engineering from Ronning Systems, LLC — the company
+                behind Joblign, "get aligned for success".
               </p>
             </div>
             <div>
