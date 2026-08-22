@@ -9,12 +9,12 @@ const features = [
   {
     icon: Briefcase,
     title: "Job Tracking",
-    desc: "Track jobs through 9 stages — from Saved to Offered — with structured pay ranges, deadlines, and automatic history logging.",
+    desc: "Track jobs through every stage — from Saved to Offered to Closed — with structured pay ranges, deadlines, and automatic history logging.",
   },
   {
     icon: FileText,
     title: "Resume Management",
-    desc: "Create and manage multiple resumes, run ATS optimization, and get technical-fit analysis from specialized AI agents.",
+    desc: "Upload a master resume and template, run ATS optimization, and get technical-fit analysis from specialized AI agents.",
   },
   {
     icon: Wand2,
@@ -24,7 +24,7 @@ const features = [
   {
     icon: Sparkles,
     title: "AI Agents",
-    desc: "Job description parsing, ATS expert review, technical hiring manager evaluation, and a 4-persona industry panel — all in one place.",
+    desc: "Job description parsing, ATS expert review, and a 4-persona industry panel — all in one place.",
   },
   {
     icon: Target,

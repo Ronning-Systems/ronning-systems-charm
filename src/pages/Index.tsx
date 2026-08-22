@@ -13,7 +13,7 @@ const productHighlights = [
   {
     icon: Briefcase,
     title: "Track Every Application",
-    desc: "Nine stages from Saved to Offered, with pay ranges, deadlines, and automatic history logging.",
+    desc: "Track applications through every stage — from Saved to Offered to Closed — with pay ranges, deadlines, and automatic history logging.",
   },
   {
     icon: FileText,

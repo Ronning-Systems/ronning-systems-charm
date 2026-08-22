@@ -43,22 +43,35 @@ const consultingTiers = [
 
 const joblignPlans = [
   {
-    name: "Free",
+    name: "Forever Free",
     price: "$0",
-    detail: "Get started",
-    features: ["Job tracking through 9 stages", "Basic resume management", "Community support"],
+    detail: "Your career, preserved",
+    features: [
+      "Upload your master resume and parse your history",
+      "Store your career timeline indefinitely",
+      "Job tracking through every stage",
+      "One standard PDF export",
+    ],
   },
   {
-    name: "Pro",
-    price: "TBD",
-    detail: "For active job seekers",
-    features: ["AI resume and cover letter generation", "ATS expert analysis", "Industry panel review", "Auto-apply"],
+    name: "Joblign Pro",
+    price: "$19 – $24 / month",
+    detail: "For the active job seeker",
+    features: [
+      "Everything in Forever Free",
+      "Tailor your parsed history to new templates dynamically",
+      "Unlimited PDF and Word downloads",
+    ],
   },
   {
-    name: "Team",
-    price: "TBD",
-    detail: "For teams and coaches",
-    features: ["Everything in Pro", "Shared pipelines", "Collaboration tools"],
+    name: "Active Hunt Pass",
+    price: "$10 – $12 / week",
+    detail: "Go all-in for one week",
+    features: [
+      "Everything in Pro",
+      "Heavy AI generation for a focused week of applications",
+      "Cancel anytime — only pay when you're hunting",
+    ],
   },
 ];
 
@@ -107,7 +120,7 @@ const Pricing = () => {
 
         <h2 className="mt-20 text-center text-2xl font-bold">Joblign</h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-muted-foreground">
-          Plan tiers for the Joblign platform. Pro and Team pricing is being finalized.
+          Flexible pricing for every stage of your job search. Pro and Active Hunt Pass pricing is being finalized.
         </p>
         <div className="mt-8 grid gap-6 md:grid-cols-3">
           {joblignPlans.map((p) => (
