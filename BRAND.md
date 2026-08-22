@@ -22,7 +22,6 @@ Ronning Systems, LLC is a technology consultancy and the company behind **Joblig
 
 - Company: **Ronning Systems, LLC**
 - Product: **Joblign**
-- Platform services: **appliances** (lowercase, as in "the appliance catalog")
 - Founder: **Patrick Ronning**
 
 ## Tone rules

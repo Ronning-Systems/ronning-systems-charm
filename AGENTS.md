@@ -4,7 +4,7 @@ This file captures project-specific conventions. Read before making changes.
 
 ## What this repo is
 
-The marketing site for Ronning Systems, LLC — home of **Joblign** ("Get aligned for success") and the public appliance catalog at `/appliances/`. It is a Vite + React 18 SPA served as static assets behind nginx.
+The marketing site for Ronning Systems, LLC — home of **Joblign** ("Get aligned for success"). It is a Vite + React 18 SPA served as static assets behind nginx.
 
 ## Branding
 
@@ -26,14 +26,12 @@ npm run test       # vitest
 - **Routing**: `src/App.tsx` — all routes above the `*` catch-all. New pages go in `src/pages/`.
 - **Layout**: `src/components/Layout.tsx` — shared nav (desktop + mobile Sheet), footer, skip-link. Every page renders inside it.
 - **SEO**: `src/components/Seo.tsx` — per-page title/description/canonical/og/twitter + JSON-LD. Use it on every page; do not hand-roll `<Helmet>` blocks.
-- **Analytics**: `src/lib/analytics.ts` — PostHog, env-gated via `VITE_POSTHOG_KEY`/`VITE_POSTHOG_HOST`. Event taxonomy: `pageview`, `cta_click`, `appliance_view`, `form_submit`, `calendly_open`.
-- **Catalog**: `src/lib/catalog.ts` reads the catalog-builder `index.json` contract. Defaults to `src/data/catalog.fixture.json`; set `VITE_CATALOG_INDEX_URL` to wire the live endpoint. Do not change the fixture's shape — it must match the catalog-builder contract.
+- **Analytics**: `src/lib/analytics.ts` — PostHog, env-gated via `VITE_POSTHOG_KEY`/`VITE_POSTHOG_HOST`. Event taxonomy: `pageview`, `cta_click`, `form_submit`, `calendly_open`.
 - **Email**: `src/components/EmailLink.tsx` — obfuscated mailto link. Use it instead of raw `mailto:` hrefs in user-visible copy.
 
 ## Env vars (build-time, inlined by Vite)
 
 - `VITE_POSTHOG_KEY` / `VITE_POSTHOG_HOST` — PostHog analytics (from Vault `secret/RS/posthog_project_*`).
-- `VITE_CATALOG_INDEX_URL` — live catalog endpoint (optional).
 
 ## Deployment
 
@@ -44,4 +42,3 @@ Canonical deploy: `my-stack/deploy-patrick-mini.sh` (builds the image on patrick
 - No comments in code unless asked.
 - Use the existing shadcn/ui primitives in `src/components/ui/`; don't add new UI deps without checking first.
 - Import icons from `lucide-react` by name (tree-shaking).
-- Keep the catalog fixture in sync with the catalog-builder contract (`my-stack/docs/appliance-spec.md` §6).

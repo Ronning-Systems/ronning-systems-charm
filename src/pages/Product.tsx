@@ -57,11 +57,11 @@ const Product = () => {
             letters, and align your resume to each role.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Button asChild size="lg" onClick={() => track("cta_click", { cta: "product_try" })}>
+            <Button asChild size="lg" onClick={() => track("cta_click", { cta: "product_contact" })}>
               <Link to="/contact">Get Early Access</Link>
             </Button>
-            <Button asChild size="lg" variant="outline">
-              <Link to="/appliances">Browse Appliances</Link>
+            <Button asChild size="lg" variant="outline" onClick={() => track("cta_click", { cta: "product_consulting" })}>
+              <Link to="/consulting">Consulting Services</Link>
             </Button>
           </div>
         </div>
@@ -88,12 +88,11 @@ const Product = () => {
         <div className="container py-20 text-center">
           <h2 className="text-3xl font-bold">Ready to get aligned?</h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            Joblign is built on the Ronning Systems appliance platform — self-contained services
-            you can combine however you like.
+            Get early access and be first to know when Joblign opens up.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Button asChild size="lg" onClick={() => track("cta_click", { cta: "product_appliances" })}>
-              <Link to="/appliances">Explore the Catalog</Link>
+            <Button asChild size="lg" onClick={() => track("cta_click", { cta: "product_contact" })}>
+              <Link to="/contact">Get Early Access</Link>
             </Button>
           </div>
         </div>

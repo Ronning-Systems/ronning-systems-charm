@@ -52,7 +52,7 @@ const joblignPlans = [
     name: "Pro",
     price: "TBD",
     detail: "For active job seekers",
-    features: ["AI resume and cover letter generation", "ATS expert analysis", "Industry panel review", "Auto-apply appliance"],
+    features: ["AI resume and cover letter generation", "ATS expert analysis", "Industry panel review", "Auto-apply"],
   },
   {
     name: "Team",
@@ -107,7 +107,7 @@ const Pricing = () => {
 
         <h2 className="mt-20 text-center text-2xl font-bold">Joblign</h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-muted-foreground">
-          Plan tiers for the Joblign appliance platform. Pro and Team pricing is being finalized.
+          Plan tiers for the Joblign platform. Pro and Team pricing is being finalized.
         </p>
         <div className="mt-8 grid gap-6 md:grid-cols-3">
           {joblignPlans.map((p) => (

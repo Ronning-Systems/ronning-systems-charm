@@ -8,7 +8,6 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
   { to: "/product", label: "Product" },
-  { to: "/appliances", label: "Appliances" },
   { to: "/consulting", label: "Consulting" },
   { to: "/pricing", label: "Pricing" },
   { to: "/about", label: "About" },
@@ -17,7 +16,6 @@ const navItems = [
 
 const footerNav = [
   { to: "/product", label: "Product" },
-  { to: "/appliances", label: "Appliances" },
   { to: "/consulting", label: "Consulting" },
   { to: "/pricing", label: "Pricing" },
   { to: "/about", label: "About" },

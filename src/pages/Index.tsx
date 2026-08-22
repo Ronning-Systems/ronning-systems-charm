@@ -84,14 +84,14 @@ const Index = () => {
             each role with AI-powered ATS analysis.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Button asChild size="lg" onClick={() => track("cta_click", { cta: "hero_appliances" })}>
-              <Link to="/appliances">
-                Explore Appliances
+            <Button asChild size="lg" onClick={() => track("cta_click", { cta: "hero_product" })}>
+              <Link to="/product">
+                Learn About Joblign
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" onClick={() => track("cta_click", { cta: "hero_product" })}>
-              <Link to="/product">Learn About Joblign</Link>
+            <Button asChild size="lg" variant="outline" onClick={() => track("cta_click", { cta: "hero_contact" })}>
+              <Link to="/contact">Get Early Access</Link>
             </Button>
           </div>
         </div>

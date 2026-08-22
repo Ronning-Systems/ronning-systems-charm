@@ -1,6 +1,6 @@
 # ronning-systems-charm
 
-The marketing site for Ronning Systems, LLC — home of **Joblign** ("Get aligned for success") and the public appliance catalog at `/appliances/`.
+The marketing site for Ronning Systems, LLC — home of **Joblign** ("Get aligned for success").
 
 ## Stack
 
@@ -27,8 +27,6 @@ npm run test       # vitest
 | --- | --- |
 | `/` | Home — Joblign hero + consulting summary |
 | `/product` | Joblign product deep-dive |
-| `/appliances` | Public appliance catalog index |
-| `/appliances/:name` | Per-appliance detail |
 | `/consulting` | Fractional CTO / advisory services |
 | `/pricing` | Consulting + Joblign plan tiers |
 | `/about` | About Ronning Systems |
@@ -36,10 +34,6 @@ npm run test       # vitest
 | `/blog/:slug` | Blog post |
 | `/contact` | Contact + Calendly + mailto form |
 | `/privacy`, `/terms` | Legal pages |
-
-## Appliance catalog
-
-`/appliances/` renders from `src/lib/catalog.ts`, which reads the catalog-builder `index.json` contract (`{generated_at, appliances:[...]}`). By default it uses the local fixture at `src/data/catalog.fixture.json`. To wire the live catalog, set `VITE_CATALOG_INDEX_URL` to the catalog-builder's `/catalog/index.json` endpoint at build time.
 
 ## Analytics
 

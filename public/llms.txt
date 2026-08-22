@@ -8,7 +8,6 @@ Ronning Systems builds Joblign ("Get aligned for success") and provides fraction
 
 - [Home](/): Joblign product overview, consulting summary, and how to get in touch.
 - [Product](/product): Joblign — job tracking, resume management, cover letter generation, and AI agents.
-- [Appliances](/appliances): The public appliance catalog — self-contained services that make up the Joblign platform.
 - [Consulting](/consulting): Fractional CTO, project execution, and board & technical advisory services.
 - [Pricing](/pricing): Consulting tiers and Joblign plan tiers.
 - [About](/about): About Ronning Systems, LLC and Patrick Ronning.

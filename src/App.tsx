@@ -7,8 +7,6 @@ import { Layout } from "@/components/Layout";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import Product from "./pages/Product.tsx";
-import Appliances from "./pages/Appliances.tsx";
-import ApplianceDetail from "./pages/ApplianceDetail.tsx";
 import Consulting from "./pages/Consulting.tsx";
 import Pricing from "./pages/Pricing.tsx";
 import About from "./pages/About.tsx";
@@ -30,8 +28,6 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/product" element={<Product />} />
-            <Route path="/appliances" element={<Appliances />} />
-            <Route path="/appliances/:name" element={<ApplianceDetail />} />
             <Route path="/consulting" element={<Consulting />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/about" element={<About />} />
