@@ -19,16 +19,22 @@ const services = [
     icon: Briefcase,
     title: "Fractional CTO",
     desc: "Senior technical leadership without the full-time hire. I step in as your fractional CTO to set technology strategy, hire and mentor engineering teams, make build-vs-buy calls, and own the technical roadmap end-to-end — so the founders and board can focus on the business.",
+    price: "$6,000 / month",
+    priceDetail: "Retainer · up to 20 hrs / month",
   },
   {
     icon: GitBranch,
-    title: "Systems Engineering & Project Management",
+    title: "Project Execution",
     desc: "From messy requirements to shipped product. I bring disciplined systems engineering — requirements, architecture, verification, traceability — together with hands-on program leadership. The result is on-time delivery in regulated environments (medical devices, aerospace, health IT) without the overhead of a large PMO.",
+    price: "$250 / hour",
+    priceDetail: "Engagements up to 20 hrs / week",
   },
   {
     icon: Compass,
     title: "Board & Technical Advisory",
     desc: "Independent technical perspective for boards and leadership teams. I help directors and executives evaluate technology bets, challenge assumptions, and govern AI, software, and product risk. With prior board experience and currently seeking a board or technical advisory role, I'm available for board seats, advisory engagements, and one-off strategic reviews.",
+    price: "Negotiated",
+    priceDetail: "Equity or retainer arrangements",
   },
 ];
 
@@ -89,8 +95,8 @@ const Index = () => {
             <div className="flex justify-center">
               <Logo showWordmark={false} className="[&>svg]:h-16 [&>svg]:w-16" />
             </div>
-            <h1 className="mt-6 text-4xl font-bold tracking-tight md:text-6xl">
-              Fractional CTO, Systems Engineering &amp; Technical Advisory
+            <h1 className="mt-6 text-5xl font-bold tracking-tight md:text-7xl">
+              Fractional CTO
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
               Senior technology leadership for companies that need to ship — without the overhead of a full-time executive team.
@@ -98,6 +104,9 @@ const Index = () => {
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <Button asChild size="lg">
                 <a href="#contact">Get in Touch</a>
+              </Button>
+              <Button asChild size="lg" variant="outline">
+                <a href="#services">See Engagement Options</a>
               </Button>
             </div>
           </div>
@@ -111,6 +120,10 @@ const Index = () => {
                 <CardHeader className="items-center text-center">
                   <s.icon className="h-10 w-10 text-accent" strokeWidth={1.5} />
                   <CardTitle className="mt-4">{s.title}</CardTitle>
+                  <div className="mt-2">
+                    <div className="text-2xl font-semibold text-foreground">{s.price}</div>
+                    <div className="text-sm text-muted-foreground">{s.priceDetail}</div>
+                  </div>
                 </CardHeader>
                 <CardContent className="text-center text-muted-foreground">{s.desc}</CardContent>
               </Card>
