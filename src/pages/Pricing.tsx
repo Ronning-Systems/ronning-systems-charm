@@ -50,27 +50,28 @@ const joblignPlans = [
       "Upload your master resume and parse your history",
       "Store your career timeline indefinitely",
       "Job tracking through every stage",
-      "One standard PDF export",
-    ],
-  },
-  {
-    name: "Joblign Pro",
-    price: "$19 – $24 / month",
-    detail: "For the active job seeker",
-    features: [
-      "Everything in Forever Free",
-      "Tailor your parsed history to new templates dynamically",
-      "Unlimited PDF and Word downloads",
+      "10 resumes per month",
     ],
   },
   {
     name: "Active Hunt Pass",
-    price: "$10 – $12 / week",
+    price: "$8.99 / week",
     detail: "Go all-in for one week",
     features: [
-      "Everything in Pro",
-      "Heavy AI generation for a focused week of applications",
+      "Everything in Forever Free",
+      "Unlimited resumes and cover letters",
       "Cancel anytime — only pay when you're hunting",
+    ],
+  },
+  {
+    name: "Joblign Pro",
+    price: "$24.99 / month",
+    detail: "For the active job seeker",
+    features: [
+      "Everything in Forever Free",
+      "Unlimited resumes and cover letters",
+      "Tailor your parsed history to new templates dynamically",
+      "Unlimited PDF and Word downloads",
     ],
   },
 ];
