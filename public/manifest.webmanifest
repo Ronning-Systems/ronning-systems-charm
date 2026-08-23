@@ -1,0 +1,23 @@
+{
+  "name": "Ronning Systems",
+  "short_name": "Ronning Systems",
+  "description": "Joblign — get aligned for success. Technology consultancy and product engineering from Ronning Systems, LLC.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#1e3a5f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

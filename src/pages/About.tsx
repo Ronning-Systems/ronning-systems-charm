@@ -38,11 +38,20 @@ const About = () => {
 
         <div className="mx-auto mt-16 grid max-w-4xl gap-8 md:grid-cols-2">
           <div className="rounded-lg border border-border p-6">
-            <h2 className="text-xl font-semibold">Patrick Ronning</h2>
-            <p className="mt-3 text-sm text-muted-foreground">
-              Founder, Ronning Systems, LLC. Fractional CTO and systems engineering lead for regulated
-              products, with prior board experience and an interest in joining a board in a technical
-              advisory capacity.
+            <div className="flex items-center gap-4">
+              <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-secondary">
+                <span className="text-2xl font-semibold text-primary" aria-hidden="true">
+                  PR
+                </span>
+              </div>
+              <div>
+                <h2 className="text-xl font-semibold">Patrick Ronning</h2>
+                <p className="text-sm text-muted-foreground">Founder, Ronning Systems, LLC</p>
+              </div>
+            </div>
+            <p className="mt-4 text-sm text-muted-foreground">
+              Fractional CTO and systems engineering lead for regulated products, with prior board
+              experience and an interest in joining a board in a technical advisory capacity.
             </p>
             <a
               href="https://www.linkedin.com/in/patrickronning"
