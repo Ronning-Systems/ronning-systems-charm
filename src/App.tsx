@@ -11,6 +11,10 @@ import NotFound from "./pages/NotFound.tsx";
 const Product = lazy(() => import("./pages/Product.tsx"));
 const Consulting = lazy(() => import("./pages/Consulting.tsx"));
 const Pricing = lazy(() => import("./pages/Pricing.tsx"));
+const Services = lazy(() => import("./pages/Services.tsx"));
+const Experience = lazy(() => import("./pages/Experience.tsx"));
+const Projects = lazy(() => import("./pages/Projects.tsx"));
+const EngagementOptions = lazy(() => import("./pages/EngagementOptions.tsx"));
 const About = lazy(() => import("./pages/About.tsx"));
 const Blog = lazy(() => import("./pages/Blog.tsx"));
 const BlogPost = lazy(() => import("./pages/BlogPost.tsx"));
@@ -31,8 +35,13 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/product" element={<Product />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/experience" element={<Experience />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/engagement-options" element={<EngagementOptions />} />
               <Route path="/consulting" element={<Consulting />} />
               <Route path="/pricing" element={<Pricing />} />
+              <Route path="/store" element={<EngagementOptions />} />
               <Route path="/about" element={<About />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/:slug" element={<BlogPost />} />

@@ -7,18 +7,21 @@ import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/s
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { to: "/product", label: "Product" },
-  { to: "/consulting", label: "Consulting" },
-  { to: "/pricing", label: "Pricing" },
   { to: "/about", label: "About" },
+  { to: "/experience", label: "Experience" },
+  { to: "/projects", label: "Projects" },
+  { to: "/services", label: "Services" },
+  { to: "/engagement-options", label: "Engagements" },
   { to: "/contact", label: "Contact" },
 ];
 
 const footerNav = [
-  { to: "/product", label: "Product" },
-  { to: "/consulting", label: "Consulting" },
-  { to: "/pricing", label: "Pricing" },
   { to: "/about", label: "About" },
+  { to: "/experience", label: "Experience" },
+  { to: "/projects", label: "Projects" },
+  { to: "/services", label: "Services" },
+  { to: "/engagement-options", label: "Engagement options" },
+  { to: "/product", label: "Joblign" },
   { to: "/blog", label: "Blog" },
   { to: "/contact", label: "Contact" },
 ];
@@ -98,8 +101,8 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
             <div>
               <Logo />
               <p className="mt-3 text-sm text-muted-foreground">
-                Technology consultancy and product engineering from Ronning Systems, LLC — the company
-                behind Joblign, "get aligned for success".
+                Interim and fractional technology leadership from Ronning Systems, LLC — healthcare IT,
+                regulated systems, and Software as a Medical Device, led by Patrick Ronning.
               </p>
             </div>
             <div>

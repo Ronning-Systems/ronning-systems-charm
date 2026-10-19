@@ -5,12 +5,13 @@ const EMAIL_DOMAIN = "Ronning.Systems";
 
 interface EmailLinkProps {
   className?: string;
+  subject?: string;
   children?: React.ReactNode;
 }
 
-export const EmailLink = ({ className, children }: EmailLinkProps) => {
+export const EmailLink = ({ className, subject, children }: EmailLinkProps) => {
   const [revealed, setRevealed] = useState(false);
-  const href = `mailto:${EMAIL_USER}@${EMAIL_DOMAIN}`;
+  const href = `mailto:${EMAIL_USER}@${EMAIL_DOMAIN}${subject ? `?subject=${encodeURIComponent(subject)}` : ""}`;
 
   if (!revealed) {
     return (

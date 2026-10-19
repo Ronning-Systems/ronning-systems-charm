@@ -9,6 +9,7 @@ interface SeoProps {
   path: string;
   noindex?: boolean;
   ogImage?: string;
+  jsonLd?: Record<string, unknown>;
 }
 
 const jsonLd = {
@@ -34,11 +35,37 @@ const jsonLd = {
       },
     },
     {
+      "@type": "Person",
+      name: "Patrick Ronning",
+      jobTitle: "Interim & Fractional CTO / CIO",
+      url: SITE_URL,
+      sameAs: "https://www.linkedin.com/in/patrickronning",
+      description:
+        "Interim and fractional technology executive for healthcare and regulated organizations. Most recently Director of Technology Services / CIO of Oregon State Hospital. MBA; PE exam passed.",
+      knowsAbout: [
+        "Healthcare IT",
+        "ITIL service management",
+        "HIPAA",
+        "FDA Software as a Medical Device",
+        "ISO 14971",
+        "IEC 62304",
+        "Cybersecurity governance",
+        "Technology budget and vendor management",
+        "SCADA and industrial control systems",
+      ],
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Portland",
+        addressRegion: "OR",
+        addressCountry: "US",
+      },
+    },
+    {
       "@type": "ProfessionalService",
       name: "Ronning Systems, LLC",
       url: SITE_URL,
       description:
-        "Fractional CTO, project execution, and board & technical advisory services for regulated-product teams.",
+        "Interim and fractional CTO/CIO for healthcare and regulated organizations, project execution, and board & technical advisory services.",
       areaServed: "Portland, OR Metro Area",
       address: {
         "@type": "PostalAddress",
@@ -52,18 +79,19 @@ const jsonLd = {
       },
       hasOfferCatalog: {
         "@type": "OfferCatalog",
-        name: "Consulting Services",
+        name: "Technology Leadership Services",
         itemListElement: [
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Fractional CTO" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Interim & Fractional CTO / CIO" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Project Execution" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Board & Technical Advisory" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Technology Leadership Audit" } },
         ],
       },
     },
   ],
 };
 
-export const Seo = ({ title, description, path, noindex, ogImage = DEFAULT_OG_IMAGE }: SeoProps) => {
+export const Seo = ({ title, description, path, noindex, ogImage = DEFAULT_OG_IMAGE, jsonLd: extraJsonLd }: SeoProps) => {
   const url = `${SITE_URL}${path}`;
   return (
     <Helmet>
@@ -82,6 +110,7 @@ export const Seo = ({ title, description, path, noindex, ogImage = DEFAULT_OG_IM
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
       <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+      {extraJsonLd ? <script type="application/ld+json">{JSON.stringify(extraJsonLd)}</script> : null}
     </Helmet>
   );
 };

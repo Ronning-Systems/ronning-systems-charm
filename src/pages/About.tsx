@@ -13,27 +13,29 @@ const values = [
 ];
 
 const credentials = [
-  "15+ years in systems engineering, software development, and cloud architecture",
-  "Prior board experience; currently seeking a board or technical advisory role",
-  "Led regulated-product delivery in medical devices, aerospace, and health IT",
-  "Founded Ronning Systems, LLC — the company behind Joblign",
+  "MBA, Willamette University · BS Electrical Engineering, Wichita State University",
+  "Most recently Director of Technology Services / CIO, Oregon State Hospital (32 FTE, $15M budget)",
+  "Shipped FDA SaMD applications at BrightInsight and launched the Manna Health platform as fractional CTO",
+  "Prior board experience; currently seeking a board or technical advisory seat",
+  "Immediately available for interim and fractional mandates",
 ];
 
 const About = () => {
   return (
     <>
       <Seo
-        title="About — Ronning Systems"
-        description="Ronning Systems, LLC is a technology consultancy and the company behind Joblign. Learn about Patrick Ronning and what we value."
+        title="About — Patrick Ronning | Ronning Systems"
+        description="Patrick Ronning — interim and fractional technology executive for healthcare and regulated organizations. MBA. Portland, OR metro / remote."
         path="/about"
       />
 
       <section className="container py-20">
         <h1 className="text-center text-4xl font-bold tracking-tight">About</h1>
         <p className="mx-auto mt-6 max-w-3xl text-center text-muted-foreground">
-          Ronning Systems, LLC is a technology consultancy founded on the principle that great systems
-          don't happen by accident — they're designed, built, and maintained with care. We build
-          Joblign, the job application platform that gets you aligned for success.
+          Ronning Systems, LLC is the Portland, Oregon metro practice of Patrick Ronning: interim and
+          fractional technology executive work for healthcare and regulated organizations, alongside
+          product engineering. Ronning Systems built the Joblign platform and is developing One Step,
+          a next-generation digital health offering.
         </p>
 
         <div className="mx-auto mt-16 grid max-w-4xl gap-8 md:grid-cols-2">
@@ -49,9 +51,11 @@ const About = () => {
                 <p className="text-sm text-muted-foreground">Founder, Ronning Systems, LLC</p>
               </div>
             </div>
-            <p className="mt-4 text-sm text-muted-foreground">
-              Fractional CTO and systems engineering lead for regulated products, with prior board
-              experience and an interest in joining a board in a technical advisory capacity.
+            <p className="text-sm text-muted-foreground">
+              Interim and fractional technology executive — most recently Director of Technology
+              Services / CIO of Oregon State Hospital, and previously fractional CTO of Manna Health
+              AI. Effective hybrid-remote from the Portland, Oregon metro, and immediately available
+              for interim and fractional mandates.
             </p>
             <a
               href="https://www.linkedin.com/in/patrickronning"

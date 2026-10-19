@@ -2,7 +2,7 @@
 
 ## Positioning
 
-Ronning Systems, LLC is a technology consultancy and the company behind **Joblign** — a job application tracking system with AI-powered resume generation and ATS analysis. The site leads with the product (Joblign) and presents consulting as a secondary offering.
+Ronning Systems, LLC is the Portland, Oregon metro practice of Patrick Ronning — an interim and fractional technology executive for healthcare and regulated organizations. The site is a personal executive portfolio: it leads with Patrick's experience (Oregon State Hospital, Manna Health, BrightInsight, Garmin, Virgin Orbit) and his services (interim & fractional CTO/CIO, project execution, board & technical advisory). Joblign is a company product listed below the fold, alongside One Step (in development). Prices are not shown on the Services page; defined-scope offerings are purchasable on the Engagement Options page.
 
 ## Voice
 
@@ -34,6 +34,5 @@ Ronning Systems, LLC is a technology consultancy and the company behind **Joblig
 ## Style
 
 - Headlines: sentence case (not Title Case).
-- Prices: `$6,000 / month`, `$250 / hour`.
 - Dates: `August 2026`.
 - Acronyms: spell out on first use (e.g. "Software as a Medical Device (SaMD)").

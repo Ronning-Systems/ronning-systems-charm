@@ -9,7 +9,8 @@ The marketing site for Ronning Systems, LLC — home of **Joblign** ("Get aligne
 ## Branding
 
 - The product is **Joblign**, tagline **"Get aligned for success"**. The legacy name "JobSync" must never appear in user-visible copy.
-- The site leads with the product; consulting (Fractional CTO, advisory) is secondary.
+- The site is a personal executive portfolio for Patrick Ronning; the product (Joblign) is a secondary, below-the-fold listing. Consulting/services pages target interim and fractional CTO/CIO buyers.
+- See `WEBSITE-REVAMP-PLAN.md` for the positioning rationale.
 - See `BRAND.md` for the full voice and style guide.
 
 ## Commands

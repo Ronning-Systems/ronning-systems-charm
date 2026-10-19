@@ -1,18 +1,20 @@
 # Ronning Systems, LLC
 
-> Technology consultancy and the company behind Joblign — a job application tracking system with AI-powered resume generation and ATS analysis. Based in the Portland, OR metro area and founded by Patrick Ronning.
+> Ronning Systems, LLC is the Portland, Oregon metro practice of Patrick Ronning — an interim and fractional technology executive for healthcare and regulated organizations. Most recently Director of Technology Services / CIO of Oregon State Hospital (32-FTE, $15M technology organization): network availability 95% to 99.5% in one quarter, ~25% operating savings in six months, three enterprise risks closed, and a governed LLM policy chatbot on Microsoft Azure. 15+ years shipping mission-critical systems — FDA Software as a Medical Device (Manna Health, BrightInsight), avionics (Garmin), launch vehicles (Virgin Orbit).
 
-Ronning Systems builds Joblign ("Get aligned for success") and provides fractional CTO, project execution, and board & technical advisory services. Past work spans medical devices (BrightInsight, Oregon State Hospital), aerospace (Virgin Orbit), and wearables (Garmin).
+Ronning Systems provides interim and fractional CTO/CIO services, project execution in regulated environments, and board & technical advisory. Products built by Ronning Systems include Joblign (a job application platform) and One Step, a next-generation digital health offering in development.
 
 ## Pages
 
-- [Home](/): Joblign product overview, consulting summary, and how to get in touch.
+- [Home](/): Profile, track record, selected work, and engagement models.
+- [About](/about): About Patrick Ronning and Ronning Systems, LLC.
+- [Experience](/experience): Career timeline, roles, outcomes, and credentials (MBA, PE exam passed, AWS Certified Solutions Architect).
+- [Projects](/projects): Case studies — Manna Health, Oregon State Hospital, BrightInsight, Garmin, Virgin Orbit, Bonneville Power Administration.
+- [Services](/services): Interim & fractional CTO/CIO, project execution, board & technical advisory, FAQ.
+- [Engagement options](/engagement-options): Technology leadership audit and advisory hour blocks available for purchase; retainers and interim placement by inquiry.
 - [Product](/product): Joblign — job tracking, resume management, cover letter generation, and AI agents.
-- [Consulting](/consulting): Fractional CTO, project execution, and board & technical advisory services.
-- [Pricing](/pricing): Consulting tiers and Joblign plan tiers.
-- [About](/about): About Ronning Systems, LLC and Patrick Ronning.
-- [Blog](/blog): Resources and writing on job search, ATS optimization, and building with AI.
-- [Contact](/contact): How to get in touch.
+- [Blog](/blog): Writing on healthcare IT, governed AI, and shipping regulated systems.
+- [Contact](/contact): How to get in touch. Immediately available for interim and fractional mandates.
 
 ## Contact
 

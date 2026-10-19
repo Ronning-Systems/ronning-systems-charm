@@ -32,16 +32,23 @@ const Contact = () => {
   return (
     <>
       <Seo
-        title="Contact — Ronning Systems"
-        description="Get in touch with Ronning Systems about Joblign, consulting, or your project."
+        title="Contact Patrick Ronning — Ronning Systems"
+        description="Contact Ronning Systems about interim or fractional CTO/CIO engagements, consulting, or a project. Portland, OR metro / remote."
         path="/contact"
       />
 
       <section className="container py-20">
         <h1 className="text-center text-4xl font-bold tracking-tight">Contact</h1>
         <p className="mt-4 text-center text-muted-foreground">
-          Ready to discuss your project? Get in touch.
+          Ready to discuss an interim or fractional mandate, a project, or an advisory role? Get in touch.
         </p>
+
+        <div className="mx-auto mt-6 max-w-4xl rounded-lg border border-accent/30 bg-accent/5 p-5 text-center">
+          <p className="text-sm font-medium text-foreground">Availability</p>
+          <p className="mt-1 text-sm text-muted-foreground">
+            Portland, Oregon metro · hybrid-remote · <span className="font-medium text-accent">immediately available for interim and fractional executive mandates</span>
+          </p>
+        </div>
 
         <div className="mx-auto mt-10 grid max-w-4xl gap-6 md:grid-cols-2">
           <Card>
