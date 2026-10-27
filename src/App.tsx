@@ -21,6 +21,9 @@ const BlogPost = lazy(() => import("./pages/BlogPost.tsx"));
 const Contact = lazy(() => import("./pages/Contact.tsx"));
 const Privacy = lazy(() => import("./pages/Privacy.tsx"));
 const Terms = lazy(() => import("./pages/Terms.tsx"));
+const OnestepPrivacy = lazy(() => import("./pages/OnestepPrivacy.tsx"));
+const OnestepTerms = lazy(() => import("./pages/OnestepTerms.tsx"));
+const OnestepSupport = lazy(() => import("./pages/OnestepSupport.tsx"));
 
 const queryClient = new QueryClient();
 
@@ -48,6 +51,9 @@ const App = () => (
               <Route path="/contact" element={<Contact />} />
               <Route path="/privacy" element={<Privacy />} />
               <Route path="/terms" element={<Terms />} />
+              <Route path="/onestep/privacy" element={<OnestepPrivacy />} />
+              <Route path="/onestep/terms" element={<OnestepTerms />} />
+              <Route path="/onestep/support" element={<OnestepSupport />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
