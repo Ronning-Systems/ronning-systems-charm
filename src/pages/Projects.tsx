@@ -5,6 +5,10 @@ import { Seo } from "@/components/Seo";
 import { track } from "@/lib/analytics";
 import mannaLogo from "@/assets/manna_logo.png";
 import bpaLogo from "@/assets/bpa_logo.svg";
+import oshLogo from "@/assets/oregon-state-hospital.png";
+import brightInsightLogo from "@/assets/brightinsight.png";
+import garminLogo from "@/assets/garmin.png";
+import virginOrbitLogo from "@/assets/virgin-orbit.png";
 
 const projects = [
   {
