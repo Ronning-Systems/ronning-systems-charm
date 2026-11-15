@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # LEGACY deploy path — Google Cloud Run. The canonical deploy target is
-# the self-hosted Traefik on patrick-mini-1 via my-stack/deploy-patrick-mini.sh.
+# the self-hosted Traefik on patrick-cachy-1 via my-stack/deploy-patrick-cachy.sh.
 # This script is retained for rollback / cloud fallback only.
 #
 # Prereqs (one-time):

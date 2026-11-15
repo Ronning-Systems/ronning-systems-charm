@@ -100,7 +100,7 @@ Keep, and add a real availability block: Portland OR metro / remote, interim and
 4. Engagement Options page with Stripe Payment Links for audit/advisory items (needs Stripe account/links from Patrick); retainer/interim placement as Inquire-only.
 5. SEO/sitemap/llms.txt/JSON-LD + FAQPage schema updates, redirects.
 6. BRAND.md/AGENTS.md updates.
-7. QA: lint, tests, build, deploy via `my-stack/deploy-patrick-mini.sh`.
+7. QA: lint, tests, build, deploy via `my-stack/deploy-patrick-cachy.sh`.
 
 ## 5. Open questions for Patrick
 - Stripe account ready? Confirm Stripe Payment Links for the audit and advisory-hour items at launch (retainer and interim placement are Inquire-only per CMO review).

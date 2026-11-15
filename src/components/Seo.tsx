@@ -37,11 +37,11 @@ const jsonLd = {
     {
       "@type": "Person",
       name: "Patrick Ronning",
-      jobTitle: "Interim & Fractional CTO / CIO",
+      jobTitle: "Technology Executive (CTO / CIO)",
       url: SITE_URL,
       sameAs: "https://www.linkedin.com/in/patrickronning",
       description:
-        "Interim and fractional technology executive for healthcare and regulated organizations. Most recently Director of Technology Services / CIO of Oregon State Hospital. MBA; PE exam passed.",
+        "Technology executive for healthcare and regulated organizations. Most recently Director of Technology Services / CIO of Oregon State Hospital. MBA; PE exam passed. Available for full-time, interim (rescue), and fractional engagements.",
       knowsAbout: [
         "Healthcare IT",
         "ITIL service management",
@@ -65,7 +65,7 @@ const jsonLd = {
       name: "Ronning Systems, LLC",
       url: SITE_URL,
       description:
-        "Interim and fractional CTO/CIO for healthcare and regulated organizations, project execution, and board & technical advisory services.",
+        "CTO/CIO leadership (full-time, interim, or fractional) for healthcare and regulated organizations, project execution, and board & technical advisory services.",
       areaServed: "Portland, OR Metro Area",
       address: {
         "@type": "PostalAddress",
@@ -81,7 +81,7 @@ const jsonLd = {
         "@type": "OfferCatalog",
         name: "Technology Leadership Services",
         itemListElement: [
-          { "@type": "Offer", itemOffered: { "@type": "Service", name: "Interim & Fractional CTO / CIO" } },
+          { "@type": "Offer", itemOffered: { "@type": "Service", name: "CTO / CIO Leadership" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Project Execution" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Board & Technical Advisory" } },
           { "@type": "Offer", itemOffered: { "@type": "Service", name: "Technology Leadership Audit" } },

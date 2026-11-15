@@ -101,8 +101,8 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
             <div>
               <Logo />
               <p className="mt-3 text-sm text-muted-foreground">
-                Interim and fractional technology leadership from Ronning Systems, LLC — healthcare IT,
-                regulated systems, and Software as a Medical Device, led by Patrick Ronning.
+                Technology leadership from Ronning Systems, LLC — healthcare IT, regulated systems,
+                and Software as a Medical Device, led by Patrick Ronning.
               </p>
             </div>
             <div>

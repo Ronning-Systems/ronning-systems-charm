@@ -43,7 +43,7 @@ const featuredWork = [
 
 const engagementModels = [
   {
-    title: "Interim & Fractional CTO / CIO",
+    title: "CTO / CIO Leadership",
     desc: "Step-in executive coverage for transitions and vacancies — or ongoing senior leadership without the full-time hire. I own technology strategy, budgets, vendors, and governance end-to-end.",
   },
   {
@@ -78,8 +78,8 @@ const Index = () => {
   return (
     <>
       <Seo
-        title="Patrick Ronning — Fractional & Interim CTO/CIO for Healthcare | Ronning Systems"
-        description="Interim and fractional technology executive for healthcare and regulated organizations. Most recently CIO of Oregon State Hospital: 95% to 99.5% availability in one quarter, ~25% operating savings, three enterprise risks closed. Portland, OR metro / remote."
+        title="Patrick Ronning — Technology Executive for Healthcare | Ronning Systems"
+        description="Technology executive for healthcare and regulated organizations. Most recently CIO of Oregon State Hospital: 95% to 99.5% availability in one quarter, ~25% operating savings, three enterprise risks closed. Available for full-time, interim (rescue), and fractional engagements. Portland, OR metro / remote."
         path="/"
       />
 
@@ -90,13 +90,13 @@ const Index = () => {
           </div>
           <h1 className="mt-6 text-4xl font-bold tracking-tight md:text-6xl">Patrick Ronning, MBA</h1>
           <p className="mt-4 text-xl font-medium text-accent">
-            Interim & fractional technology executive — healthcare IT, regulated systems, and SaMD
+            Technology executive — healthcare IT, regulated systems, and SaMD
           </p>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
             Most recently Director of Technology Services / CIO of Oregon State Hospital, leading a
             32-FTE, $15M technology organization. 15+ years shipping mission-critical systems — FDA
-            Software as a Medical Device, avionics, launch vehicles. Immediately available for interim
-            and fractional mandates.
+            Software as a Medical Device, avionics, launch vehicles. Available for full-time,
+            interim (rescue), and fractional engagements.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Button asChild size="lg" onClick={() => track("cta_click", { cta: "hero_services" })}>

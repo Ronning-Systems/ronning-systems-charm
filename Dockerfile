@@ -24,7 +24,7 @@ RUN VITE_POSTHOG_KEY="$VITE_POSTHOG_KEY" VITE_POSTHOG_HOST="$VITE_POSTHOG_HOST" 
 FROM nginx:1.27-alpine AS runtime
 
 # SPA-friendly nginx config that respects the container's $PORT
-# (canonical deploy: Traefik on patrick-mini-1; legacy: Cloud Run).
+# (canonical deploy: Traefik on patrick-cachy-1; legacy: Cloud Run).
 RUN rm /etc/nginx/conf.d/default.conf
 COPY nginx.conf /etc/nginx/templates/default.conf.template
 

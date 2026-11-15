@@ -17,7 +17,7 @@ const credentials = [
   "Most recently Director of Technology Services / CIO, Oregon State Hospital (32 FTE, $15M budget)",
   "Shipped FDA SaMD applications at BrightInsight and launched the Manna Health platform as fractional CTO",
   "Prior board experience; currently seeking a board or technical advisory seat",
-  "Immediately available for interim and fractional mandates",
+  "Available for full-time, interim (rescue), and fractional engagements",
 ];
 
 const About = () => {
@@ -25,15 +25,15 @@ const About = () => {
     <>
       <Seo
         title="About — Patrick Ronning | Ronning Systems"
-        description="Patrick Ronning — interim and fractional technology executive for healthcare and regulated organizations. MBA. Portland, OR metro / remote."
+        description="Patrick Ronning — technology executive for healthcare and regulated organizations. MBA. Available for full-time, interim (rescue), and fractional engagements. Portland, OR metro / remote."
         path="/about"
       />
 
       <section className="container py-20">
         <h1 className="text-center text-4xl font-bold tracking-tight">About</h1>
         <p className="mx-auto mt-6 max-w-3xl text-center text-muted-foreground">
-          Ronning Systems, LLC is the Portland, Oregon metro practice of Patrick Ronning: interim and
-          fractional technology executive work for healthcare and regulated organizations, alongside
+          Ronning Systems, LLC is the Portland, Oregon metro practice of Patrick Ronning: technology
+          executive work for healthcare and regulated organizations, alongside
           product engineering. Ronning Systems built the Joblign platform and is developing One Step,
           a next-generation digital health offering.
         </p>
@@ -52,10 +52,10 @@ const About = () => {
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
-              Interim and fractional technology executive — most recently Director of Technology
+              Technology executive — most recently Director of Technology
               Services / CIO of Oregon State Hospital, and previously fractional CTO of Manna Health
-              AI. Effective hybrid-remote from the Portland, Oregon metro, and immediately available
-              for interim and fractional mandates.
+              AI. Effective hybrid-remote from the Portland, Oregon metro, and available for
+              full-time, interim (rescue), and fractional engagements.
             </p>
             <a
               href="https://www.linkedin.com/in/patrickronning"

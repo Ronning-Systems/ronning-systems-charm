@@ -9,7 +9,7 @@ The marketing site for Ronning Systems, LLC — home of **Joblign** ("Get aligne
 ## Branding
 
 - The product is **Joblign**, tagline **"Get aligned for success"**. The legacy name "JobSync" must never appear in user-visible copy.
-- The site is a personal executive portfolio for Patrick Ronning; the product (Joblign) is a secondary, below-the-fold listing. Consulting/services pages target interim and fractional CTO/CIO buyers.
+- The site is a personal executive portfolio for Patrick Ronning; the product (Joblign) is a secondary, below-the-fold listing. Consulting/services pages target CTO/CIO buyers — full-time, interim (rescue), or fractional.
 - See `WEBSITE-REVAMP-PLAN.md` for the positioning rationale.
 - See `BRAND.md` for the full voice and style guide.
 
@@ -36,7 +36,7 @@ npm run test       # vitest
 
 ## Deployment
 
-Canonical deploy: `my-stack/deploy-patrick-mini.sh` (builds the image on patrick-mini from this repo, serves via nginx behind Traefik). The Dockerfile accepts `VITE_POSTHOG_KEY` / `VITE_POSTHOG_HOST` build args. `deploy.sh` is the legacy Cloud Run path — do not treat it as canonical.
+Canonical deploy: `my-stack/deploy-patrick-cachy.sh` (builds the image on patrick-cachy from this repo, serves via nginx behind Traefik). The Dockerfile accepts `VITE_POSTHOG_KEY` / `VITE_POSTHOG_HOST` build args. `deploy.sh` is the legacy Cloud Run path — do not treat it as canonical.
 
 ## Conventions
 

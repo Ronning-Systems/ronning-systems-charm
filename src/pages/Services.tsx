@@ -13,7 +13,7 @@ import oshLogo from "@/assets/oregon-state-hospital.png";
 const services = [
   {
     icon: Briefcase,
-    title: "Interim & Fractional CTO / CIO",
+    title: "CTO / CIO Leadership",
     desc: "Step-in executive coverage for transitions and vacancies, or ongoing senior technology leadership without the full-time hire. I set technology strategy, own operating and capital budgets, lead 24/7 operations, govern vendor and EHR contracts, and hold cybersecurity and risk accountability — working with leadership teams, boards, and unionized workforces.",
   },
   {
@@ -89,7 +89,7 @@ const faqs = [
   },
   {
     q: "Where are you based and when are you available?",
-    a: "Portland, Oregon metro, effective hybrid-remote. Immediately available for interim and fractional mandates.",
+    a: "Portland, Oregon metro, effective hybrid-remote. Available for full-time, interim (rescue), and fractional engagements.",
   },
 ];
 
@@ -107,8 +107,8 @@ const Services = () => {
   return (
     <>
       <Seo
-        title="Fractional & Interim CTO/CIO Services — Ronning Systems"
-        description="Interim and fractional CIO/CTO for healthcare and regulated organizations, project execution in regulated environments, and board & technical advisory. Portland, OR metro / remote. Immediately available."
+        title="CTO/CIO Services for Healthcare and Regulated Organizations — Ronning Systems"
+        description="Technology executive services for healthcare and regulated organizations: full-time, interim (rescue), and fractional CTO/CIO leadership, project execution, and board & technical advisory. Portland, OR metro / remote."
         path="/services"
         jsonLd={faqJsonLd}
       />
@@ -117,9 +117,9 @@ const Services = () => {
         <div className="container py-24 text-center md:py-32">
           <h1 className="text-5xl font-bold tracking-tight md:text-6xl">Services</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-            Senior technology leadership for healthcare and regulated organizations — interim and
-            fractional mandates, project execution, and advisory. Based in the Portland, Oregon metro
-            and immediately available.
+            Senior technology leadership for healthcare and regulated organizations — full-time,
+            interim (rescue), and fractional mandates, project execution, and advisory. Based in the
+            Portland, Oregon metro and available now.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Button asChild size="lg" onClick={() => track("cta_click", { cta: "services_contact" })}>

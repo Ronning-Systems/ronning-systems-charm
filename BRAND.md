@@ -2,7 +2,7 @@
 
 ## Positioning
 
-Ronning Systems, LLC is the Portland, Oregon metro practice of Patrick Ronning — an interim and fractional technology executive for healthcare and regulated organizations. The site is a personal executive portfolio: it leads with Patrick's experience (Oregon State Hospital, Manna Health, BrightInsight, Garmin, Virgin Orbit) and his services (interim & fractional CTO/CIO, project execution, board & technical advisory). Joblign is a company product listed below the fold, alongside One Step (in development). Prices are not shown on the Services page; defined-scope offerings are purchasable on the Engagement Options page.
+Ronning Systems, LLC is the Portland, Oregon metro practice of Patrick Ronning — a technology executive for healthcare and regulated organizations. The site is a personal executive portfolio: it leads with Patrick's experience (Oregon State Hospital, Manna Health, BrightInsight, Garmin, Virgin Orbit) and his services (CTO/CIO leadership — full-time, interim (rescue), or fractional — project execution, board & technical advisory). The "interim or fractional" headline positioning was removed (2026-11-15): availability is stated as full-time, interim (rescue), or fractional engagements. Joblign is a company product listed below the fold, alongside One Step (in development). Prices are not shown on the Services page; defined-scope offerings are purchasable on the Engagement Options page.
 
 ## Voice
 

@@ -41,4 +41,4 @@ PostHog is initialized only when `VITE_POSTHOG_KEY` is set at build time (Vite i
 
 ## Deployment
 
-Canonical deploy: `my-stack/deploy-patrick-mini.sh` (builds the image on patrick-mini from this repo, serves via nginx behind Traefik). The Dockerfile accepts `VITE_POSTHOG_KEY` / `VITE_POSTHOG_HOST` build args. Legacy Cloud Run path (`deploy.sh`) is retained but not the canonical target.
+Canonical deploy: `my-stack/deploy-patrick-cachy.sh` (builds the image on patrick-cachy from this repo, serves via nginx behind Traefik). The Dockerfile accepts `VITE_POSTHOG_KEY` / `VITE_POSTHOG_HOST` build args. Legacy Cloud Run path (`deploy.sh`) is retained but not the canonical target.

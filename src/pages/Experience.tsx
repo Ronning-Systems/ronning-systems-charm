@@ -123,7 +123,7 @@ const Experience = () => {
           ))}
         </div>
         <p className="mt-6 text-center text-sm font-medium text-accent">
-          Immediately available for interim and fractional mandates.
+          Available for full-time, interim (rescue), and fractional engagements.
         </p>
       </section>
 
